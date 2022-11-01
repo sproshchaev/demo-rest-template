@@ -17,6 +17,23 @@ public class Main {
 
         SpringApplication.run(Main.class, args);
 
+        /** Пример ответа с https://api.apilayer.com (запрос курса USD-RUB)
+        {
+            "date": "2022-11-01",
+                "info": {
+            "rate": 61.754004,
+                    "timestamp": 1667320923
+        },
+            "query": {
+            "amount": 1,
+                    "from": "USD",
+                    "to": "RUB"
+        },
+            "result": 61.754004,
+                "success": true
+        }
+        */
+
         /**
          * Вариант 1 - "GET-запрос c заголовком "apikey". Использование Map.class
          */
